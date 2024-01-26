@@ -18,6 +18,7 @@ start server
 
         testuser - Supper11
     python .\manage.py makemigrations
+    python .\manage.py migrate
 
 
 
@@ -39,3 +40,4 @@ python -m venv venv
 pip install Django
 pip install django-crispy-forms
 pip install crispy_bootstrap4
+python -m pip install Pillow

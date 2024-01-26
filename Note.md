@@ -28,3 +28,14 @@ user.post_set.create(title='Blog3', content='Third Post Content')
 >>>
 >>> post_2 = Post(title='Blog2', content='Second Post Content', author=user)
 >>> post_2.save()
+
+
+
+
+pip install virtualenv
+python -m venv venv
+.\venv\Scripts\activate
+
+pip install Django
+pip install django-crispy-forms
+pip install crispy_bootstrap4

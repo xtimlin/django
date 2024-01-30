@@ -1,4 +1,4 @@
-.\pyenv\Scripts\activate
+.\venv\Scripts\activate
 deactivate
 
 

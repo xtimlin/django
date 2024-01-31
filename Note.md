@@ -41,3 +41,17 @@ pip install Django
 pip install django-crispy-forms
 pip install crispy_bootstrap4
 python -m pip install Pillow
+
+
+## Load testPostsData
+```py
+import json
+from blog.models import Post
+
+with open('testPostsData.json') as f:
+  posts_json = json.load(f)
+
+for post in posts_json:
+  post = Post(title=post['title'], content=post['content'], author_id=post['user_id'])
+  post.save()
+```

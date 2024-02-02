@@ -34,13 +34,13 @@ user.post_set.create(title='Blog3', content='Third Post Content')
 
 
 pip install virtualenv
-python -m venv venv
-.\venv\Scripts\activate
-
-pip install Django
-pip install django-crispy-forms
-pip install crispy_bootstrap4
-python -m pip install Pillow
+python -m venv venv;
+.\venv\Scripts\activate;
+python -m pip install --upgrade pip;
+pip install Django;
+pip install django-crispy-forms;
+pip install crispy_bootstrap4;
+python -m pip install Pillow;
 
 
 ## Load testPostsData

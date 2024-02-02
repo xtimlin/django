@@ -1,5 +1,7 @@
 venv
-*.pyc
-__pycache__/
+db.sqlite3
+.idea
 
-*.sqlite3
+
+
+*.pyc

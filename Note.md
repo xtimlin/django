@@ -37,10 +37,10 @@ pip install virtualenv
 python -m venv venv;
 .\venv\Scripts\activate;
 python -m pip install --upgrade pip;
+pip install crispy_bootstrap5;
 pip install Django;
 pip install django-crispy-forms;
-pip install crispy_bootstrap4;
-python -m pip install Pillow;
+pip install Pillow;
 
 
 ## Load testPostsData
